@@ -55,7 +55,7 @@ there before regenerating it; direct edits can be overwritten by a later export.
 Source workbooks, private working files, verification archives, and credentials
 are not part of this public repository. See [Maintenance](docs/maintenance.md).
 
-The professor's CV PDF and download link are intentionally excluded from this public deployment.
+The professor's CV is available from the Team page.
 
 ## Deployment and domain
 

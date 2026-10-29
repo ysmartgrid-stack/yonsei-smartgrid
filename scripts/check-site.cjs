@@ -17,7 +17,10 @@ function checkPublic(value) {
 }
 checkPublic(data);
 if (/@[a-z0-9.-]+\.[a-z]{2,}/i.test(fs.readFileSync(path.resolve(__dirname,'../README.md'),'utf8'))) throw new Error('Do not add contact email addresses to README');
-if (fs.existsSync(path.join(root, 'assets/documents/kyeon-hur-cv-2026.pdf')) || dataText.includes('kyeon-hur-cv-2026.pdf')) throw new Error('CV must be excluded from this public deployment');
+const professor = data.people.find(person => person.role === 'Professor');
+if (professor?.cv !== './assets/documents/kyeon-hur-cv-2026.pdf') throw new Error('Professor CV link is missing');
+const cv = fs.readFileSync(path.join(root, 'assets/documents/kyeon-hur-cv-2026.pdf'));
+if (cv.subarray(0, 5).toString() !== '%PDF-') throw new Error('Professor CV is not a PDF');
 for (const file of ['app.js', 'data.js']) execFileSync(process.execPath, ['--check', path.join(root, file)], {stdio:'inherit'});
 const assets = new Set();
 for (const file of ['index.html', 'styles.css', 'typography.css', 'app.js', 'data.js']) {

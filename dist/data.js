@@ -725,7 +725,8 @@ window.LAB_DATA = {
         "1998–2003 · Samsung Electronics, Korea · R&D Engineer"
       ],
       "email": "khur@yonsei.ac.kr",
-      "scholar": "https://scholar.google.com/citations?hl=en&user=_RwnfWYAAAAJ&view_op=list_works&sortby=pubdate"
+      "scholar": "https://scholar.google.com/citations?hl=en&user=_RwnfWYAAAAJ&view_op=list_works&sortby=pubdate",
+      "cv": "./assets/documents/kyeon-hur-cv-2026.pdf"
     },
     {
       "id": "person-66753f5da4ec",

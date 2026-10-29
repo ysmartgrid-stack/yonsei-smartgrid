@@ -20,7 +20,7 @@ function clean(value) {
 clean(publicData);
 for (const person of publicData.people) {
   if (!['Professor', 'M.S. Student'].includes(person.role)) delete person.email;
-  delete person.cv;
+  if (person.role !== 'Professor') delete person.cv;
 }
 publicData.projectsSource = {checked}; // Used for the visible project reference date.
 fs.writeFileSync(file, '// Public website data; internal editorial metadata and non-displayed contact fields excluded.\nwindow.LAB_DATA = ' + JSON.stringify(publicData, null, 2) + ';\n');
