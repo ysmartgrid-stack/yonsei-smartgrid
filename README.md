@@ -47,7 +47,7 @@ Open **http://127.0.0.1:4173/**. No framework installation or build step is requ
 
 1. Prepare and review changes in the maintained local source workspace.
 2. Copy the reviewed output into `dist/`, including updated assets.
-3. Run `node scripts/check-site.cjs` and inspect desktop/mobile layouts.
+3. Run `node scripts/sanitize-public.cjs`, then `node scripts/check-site.cjs`, and inspect desktop/mobile layouts.
 4. Commit and push to `main`; GitHub Actions publishes only `dist/`.
 
 `dist/data.js` is generated in the source workspace. Update its editorial source
@@ -72,4 +72,3 @@ See [Deployment](docs/deployment.md) before a future domain cutover.
 - Publication and patent titles retain source spelling. Project names are editorial English translations.
 - No blanket license is granted for reuse of the repository's branding or media.
 
-Contact: [khur@yonsei.ac.kr](mailto:khur@yonsei.ac.kr)
