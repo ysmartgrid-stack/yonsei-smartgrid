@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 210" fill="none">
+<defs>
+<g id="wind" stroke="#477d9b" stroke-width="1.8" stroke-linejoin="round"><path d="m-4 150 2-111h4l4 111" fill="#d0e3ed"/><circle cy="35" r="4.8" fill="#ecf5f8"/><path d="M-2 30-5-1 0-7 3 30Zm6 6 32 17 2 6L2 40Zm-8 2-29 22-6-1 33-25Z" fill="#c6dfe9"/></g>
+<g id="tower" stroke="#477d9b" stroke-width="1.7" stroke-linejoin="round"><path d="m-27 157 22-144h10l22 144M-20 118h40m-34-37h28M-30 45h60M-42 65h84M-12 22h24M-20 118 14 81-5 13m25 105L-14 81 5 13M-20 118l43 39m-46 0 43-39M-30 45v9m60-9v9M-42 65v10m84-10v10"/></g>
+<g id="solar" stroke="#477d9b" stroke-width="1.6"><path d="M12 0h112l18 48H0Z" fill="#d3e7ef"/><path d="M8 16h122M4 32h132M40 0 34 48M68 0v48M96 0l6 48M18 48v15m105-15v15"/></g>
+</defs>
+<path d="M25 183h1390" stroke="#a4c3d2" stroke-width="1.3"/>
+<path d="M31 172c98-7 170 4 271 0s212-5 328 0 178 6 295 0 226-1 486 0" stroke="#c4dbe6"/>
+<use href="#wind" transform="translate(115 18)"/><use href="#wind" transform="translate(235 43) scale(.82)"/>
+<use href="#solar" transform="translate(365 111)"/><use href="#solar" transform="translate(528 123) scale(.8)"/>
+<path d="M121 168h122m179 6h164m52 2h102m270 0h137" stroke="#77a7bd" stroke-width="2"/>
+<use href="#tower" transform="translate(755 16)"/><use href="#tower" transform="translate(995 16)"/>
+<path d="M725 61q150 83 240 0M785 61q120 64 240 0M713 81q152 84 240 0M797 81q120 62 240 0" stroke="#779fb6" stroke-width="1.4"/>
+<g stroke="#477d9b" stroke-width="1.7" stroke-linejoin="round"><path d="m1150 124 43-31 43 31M1159 118v55h68v-55" fill="#e6f0f5"/><path d="M1186 173v-29h17v29M1170 128h12v12h-12Zm36 0h12v12h-12ZM1260 173v-58h77v58m-85-58 45-24 47 24"/><path d="M1272 129h13v14h-13Zm26 0h13v14h-13Zm26 0h5v14h-5ZM1272 154h13v19h-13m13-9h26"/></g>
+<g fill="#edf6fa" stroke="#77a7bd" stroke-width="1.5"><circle cx="327" cy="175" r="4"/><circle cx="662" cy="175" r="4"/><circle cx="1097" cy="175" r="4"/></g>
+</svg>

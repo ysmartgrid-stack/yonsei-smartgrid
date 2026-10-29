@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" fill="none">
+<defs><pattern id="mesh" width="80" height="44" patternUnits="userSpaceOnUse"><path d="M0 22 40 0 80 22 40 44Z" stroke="#4c7c98" stroke-width=".8"/></pattern><linearGradient id="ground" x2="1" y2="1"><stop stop-color="#d8e8ef"/><stop offset="1" stop-color="#6f9eb9"/></linearGradient><g id="turbine" stroke="#174e72" stroke-width="3" stroke-linejoin="round"><path d="m-7 180 6-176h5l7 176-9 6Z" fill="#c2dce8"/><circle r="9" fill="#edf6fa"/><path d="m-3-9-7-116 11-6L8-9ZM8 3l104 56 1 13L4 12Zm-15 3-97 65-12-6L-10-3Z" fill="#dcecf4"/></g><g id="pylon" stroke="#1f597a" stroke-width="3"><path d="M-35 190 0-10l35 200M-25 145h50m-42-45h34M-40 42h80m-54 26h108M-18 0h36M-23 145l44-45m-38 0 28-58m-17 0 12-42M23 145l-44-45m38 0L-11 42m17 0L-6 0"/><path d="M-45 42v15m90-15v15m-59 11v15m118-15v15"/></g></defs>
+<path d="m35 480 665-365 700 370-670 370Z" fill="url(#ground)" stroke="#487c9b" stroke-width="2"/>
+<path d="m35 480 695 375v21L35 501Zm695 375 670-370v22L730 876Z" fill="#5185a4"/>
+<path d="m70 480 630-346 655 351-625 345Z" fill="url(#mesh)"/>
+<g stroke="#1f7b9e" stroke-width="5"><path d="m270 580 290-155 165 89 250-137M725 514v145l-140 77M559 425V309l175-93M975 377l165 89"/><path d="m270 580 290-155 165 89 250-137" stroke="#ebf8fc" stroke-width="14"/><path d="m270 580 290-155 165 89 250-137"/></g>
+<g transform="translate(510 330)" stroke="#285e7e" stroke-width="2"><path d="m0 45 130-70 130 70-130 70Z" fill="#eef7fb"/><path d="M0 45v150l130 70V115Z" fill="#9fc3d7"/><path d="m130 115 130-70v150l-130 70Z" fill="#306e92"/><path d="m35 25 94-50 93 50-93 51Z" fill="#e4f0f7"/><path d="m35 25 94 51v30L35 55Z" fill="#6e9fbc"/><path d="m129 76 93-51v30l-93 51Z" fill="#477f9f"/><path d="M30 100v70m35-51v70m35-51v70" stroke="#376e8e" stroke-width="14"/><path d="m160 143 68-36m-68 59 68-36m-68 59 68-36m-68 59 68-36" stroke="#b6dbe9" stroke-width="4"/></g>
+<g transform="translate(160 500)" stroke="#245e80" stroke-width="2"><path d="m0 20 170-92 125 67-170 92Z" fill="#256887"/><path d="m0 20 125 67v14L0 34Zm125 67 170-92V9L125 101Z" fill="#7ba6be"/><path d="m28 5 125 67M56-10l125 67M84-25l125 67M112-40l125 67M140-55l125 67M25 34l170-92M50 47l170-92M75 60l170-92M100 74l170-92" stroke="#b4d8e8"/><path d="M25 48v40m230-76v40M126 98v35" stroke-width="5"/></g>
+<use href="#turbine" transform="translate(953 225) scale(.92)"/>
+<use href="#turbine" transform="translate(1120 320) scale(.75)"/>
+<use href="#pylon" transform="translate(716 92) scale(.82)"/>
+<use href="#pylon" transform="translate(1250 400) scale(.75)"/>
+<path d="M683 127c145 155 353 179 537 300M750 127c145 125 335 171 536 300M672 148c149 150 345 198 541 300" stroke="#2f6889" stroke-width="2"/>
+<g transform="translate(480 663)" stroke="#2b6383" stroke-width="2"><path d="m0 0 80-43 67 36-80 44Z" fill="#e5f1f7"/><path d="M0 0v63l67 36V37Z" fill="#99bfd4"/><path d="m67 37 80-44v63l-80 43Z" fill="#3c7d9f"/><path d="m83 49 46-25m-46 42 46-25m-46 42 46-25" stroke="#b7dae9" stroke-width="4"/></g>
+<g fill="#edf8fc" stroke="#237a9d" stroke-width="4"><circle cx="560" cy="425" r="10"/><circle cx="725" cy="659" r="10"/><circle cx="975" cy="377" r="10"/><circle cx="270" cy="580" r="10"/></g>
+</svg>
