@@ -1,7 +1,7 @@
 // Public website data; internal editorial metadata and non-displayed contact fields excluded.
 window.LAB_DATA = {
   "introductionVideo": {
-    "src": "./assets/video/lab-introduction.mp4",
+    "src": "./assets/video/lab-introduction.mp4?v=20261029-domain-reset",
     "poster": "./assets/branding/yonsei-university-wordmark.png",
     "posterAlt": "YONSEI UNIVERSITY",
     "posterWidth": 365,
